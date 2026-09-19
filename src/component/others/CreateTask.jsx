@@ -3,7 +3,7 @@ import AllTask from './AllTask'
 
 const CreateTask = () => {
   return (
-    <div className='flex gap-10 ' >
+    <div className='flex justify-center' >
 
         <div className='bg-black h-[90%] w-[30%] mt-5 rounded-3xl border-2 shrink-0 border-red-500'>
         <form className='p-8'>
@@ -28,23 +28,8 @@ const CreateTask = () => {
 
       </div>
 
-        
-        {/* Task */}
-        <div className='flex gap-6 flex-wrap mt-5 justify-between '>
-       
-              <div className='h-80 w-70 bg-amber-300 rounded text-red-500 font-semibold text-2xl'> 
-                <h1 className='flex justify-center'>Task</h1>
-              
-              </div>
-      
-             
-         
-          
-              
-              
-        </div>
-  
     </div>
+
   )
 }
 
